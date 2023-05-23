@@ -48,6 +48,14 @@ header h1 {
 }
 
 
+.new-block p {
+  width: 600px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+
 /* p.text-image:nth-of-type(2)::before {
   content: "NEW ";
   color: red;
@@ -58,7 +66,7 @@ header h1 {
   color: gray;
 }
 
-#text-color {
+a.text-color {
   color: black;
 }
 
