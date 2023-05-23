@@ -11,55 +11,61 @@
 </head>
 
 <body>
-
   <header>
     <div class="container">
-      <span id="title">Актуальные новости недели</span>
+      <h1>Актуальные новости недели</h1>
     </div>
   </header>
-
-
   <main>
     <div class="container">
       <div class="left-block">
-        <img src="./src/assets/images/arrow-down.png" alt="стрелочка" class="arrow-block">
+        <a href="#footer"><img src="./src/assets/images/arrow-down.png" alt="стрелочка" class="arrow-block"></a>
+        <a href="#"><img src="./src/assets/images/arrow-up.png" alt="стрелочка" class="arrow-block"></a>
       </div>
       <div class="right-block">
-        <div class="new-block">
-          <p>Наруто наконец-то стал хокаге</p>
+        <section class="new-block">
+          <p class="text-image text-decoration">Наруто наконец-то стал хокаге<br><span>Опубликовал <a href="#"
+                id="text-color">Иван
+                Иванов</a> 20 мая 2023</span></p>
           <img src="./src/assets/images/Naruto_Boruto_Movie.webp" alt="Наруто-Хокаге" class="image-new">
-        </div>
-        <div class="new-block">
-          <p>Гадалка из Мурино раскрыла секрет похудения, нужно лишь...</p>
+        </section>
+        <section class="new-block">
+          <p class="text-image text-decoration">Гадалка из Мурино раскрыла секрет похудения, нужно
+            лишь...<br><span>Опубликовал <a href="#" id="text-color">Иван Иванов</a> 21 мая 2023</span></p>
           <img src="./src/assets/images/fat-cat.jpg" alt="Жирный кот" class="image-new">
-        </div>
-        <div class="new-block">
-          <p>Новый рецепт праздничного салата, выши близкие будут в востроге</p>
+        </section>
+        <section class="new-block">
+          <p class="text-image">Новый рецепт праздничного салата, ваши близкие будут в востроге <br><span>Опубликовал
+              <a href="#" id="text-color">Геннадий Букин</a> 20 мая 2023</span></p>
           <img src="./src/assets/images/salat.jpg" alt="Салат" class="image-new">
-        </div>
-        <div class="new-block">
-          <p>Собака из Таганрога стала самой долгоживущей</p>
+        </section>
+        <section class="new-block">
+          <p class="text-image">Собака из Таганрога стала самой долгоживущей<br><span>Опубликовал <a href="#"
+                id="text-color">Геннадий Букин</a> 21 мая 2023</span></p>
           <img src="./src/assets/images/собака-танцевака-687936.gif" alt="Собака-танцевака" class="image-new">
-        </div>
-        <div class="new-block">
-          <p>Британские ученные выяснили, что у животных могут быть вредные привычки</p>
+        </section>
+        <section class="new-block">
+          <p class="text-image">Британские ученые выяснили, что у животных могут быть вредные привычки
+            <br><span>Опубликовал <a href="#" id="text-color">Геннадий Букин</a> 22 мая 2023</span>
+          </p>
           <img src="./src/assets/images/rat.jpg" alt="Крыса с сигаретой" class="image-new">
-        </div>
+        </section>
       </div>
     </div>
   </main>
-  <footer>
+  <footer id="footer">
     <div class="container">
-      <ul>
-        <li><a href="#title">Новости</a></li>
-        <li><a href="#">Вакансии</a></li>
-        <li><a href="#">Контакты</a></li>
-        <li><a href="#">О нас</a></li>
-
-      </ul>
+      <div class="flex">
+        <ul>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Вакансии</a></li>
+          <li><a href="#">Контакты</a></li>
+          <li><a href="#">О нас</a></li>
+        </ul>
+        <img src="../news/src/assets/images/SkillFactory.png" alt="">
+      </div>
     </div>
   </footer>
-
 </body>
 
 </html>
